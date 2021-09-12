@@ -1,5 +1,19 @@
+@font-face {
+  font-family: "Apercu Mono";
+  src: local("Apercu Mono"),   url(fonts/ApercuMono.ttf) format("truetype");}
+
 canvas {
   position: fixed;
   top: 0;
   left: 0;
+  background-attachment: fixed;
+  z-index: -9999;
+}
+
+#app {
+  font-family: "Apercu Mono";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #f8f8f2;
 }

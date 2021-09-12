@@ -46,4 +46,8 @@ function animate() {
   renderer.render(scene, camera);
 }
 
+document.querySelector('#app').innerHTML = `
+  <div style="display: flex;height: 100vh;justify-content: center;align-items: center;flex-direction: column;"><h1>hello-world.jpg</h1><h1>hello-world.jpg</h1><h1>hello-world.jpg</h1></div>
+`
+
 animate();
